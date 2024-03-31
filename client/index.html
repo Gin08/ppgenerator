@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perfect Photo App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="app">
+    <header>
+      <h1>Perfect Photo App</h1>
+    </header>
+
+    <div id="chat_container"></div>
+    <form>
+      <textarea name="prompt" rows="1" cols="1" placeholder="Ask Me Daddy!">
+                </textarea>
+      <select name="category">
+        <option value="Man">Man</option>
+        <option value="Woman">Woman</option>
+        <option value="Girl">Girl</option>
+        <option value="Boy">Boy</option>
+        <option value="Family">Family</option>
+        <option value="Friends">Friends</option>
+      </select>
+      <button type="submit"><img src="assets/send.svg" /></button>
+
+    </form>
+  </div>
+  <script type="module" src="/script.js"></script>
+</body>
+
+</html>
